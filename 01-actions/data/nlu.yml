@@ -1,7 +1,7 @@
 version: "2.0"
 
 nlu:
-- intent: saludar
+- intent: greet
   examples: |
     - Ey!
     - Hola
@@ -89,3 +89,8 @@ nlu:
     - dime la hora
     - tienes hora?
     - que hora es?
+- intent: pedir_bus
+  examples: |
+    - cuando queda para el bus?
+    - cuando llega el bus?
+    - va a tardar mucho el bus?

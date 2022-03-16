@@ -35,3 +35,10 @@ stories:
   - action: utter_greet
   - intent: give_time
   - action: action_show_time
+
+- story: tiempo del 40
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pedir_bus
+    - action: action_call_bus
