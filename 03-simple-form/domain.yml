@@ -11,6 +11,8 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- give_name
+- name_request
 slots:
   first_name:
     type: text
@@ -34,6 +36,8 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_ask_first_name:
   - text: What is your first name?
+  utter_first_name:
+  - text: Tu nombre es {first_name}
   utter_submit:
   - text: Ok. Thanks!
   utter_slots_values:

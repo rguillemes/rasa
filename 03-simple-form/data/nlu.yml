@@ -90,4 +90,16 @@ nlu:
     - i want to give you my name
     - give name
     - you need to know my name
+- intent: give_name
+  examples: |
+    - jose
+    - miguel
+    - raul
+    - mateo
+    - ana maria
+    - carlos
+- intent: name_request
+  examples: |
+    - what is my name?
+    - how im called?
     - do you know my name?

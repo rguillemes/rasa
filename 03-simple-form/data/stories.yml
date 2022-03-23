@@ -29,6 +29,11 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: name_request
+  steps:
+    - intent: name_request
+    - action: utter_first_name
+
 - story: interactive_story_1
   steps:
   - intent: greet
